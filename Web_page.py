@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-st.image("C:/Users/bsaih/Downloads/Greenko image.jpg", width = 200,use_column_width=300)
+st.image("C:/Users/bsaih/Downloads/Greenko image.jpg", width = 200)
 
 st.header(':green[Greenko Energy Pvt.Ltd]',divider = 'orange')
 
