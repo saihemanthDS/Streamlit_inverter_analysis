@@ -3,14 +3,14 @@ import pandas as pd
 import numpy as np
 
 
-st.image("C:/Users/bsaih/Downloads/Greenko image.jpg", width = 200)
+st.image("Greenko image.jpg", width = 200)
 
 st.header(':green[Greenko Energy Pvt.Ltd]',divider = 'orange')
 
 st.title("Solar Inverter Data Analysis")
 st.write('This is the data available in the S3 File (Top 5 records)')
 
-table = pd.read_json('C:/Users/bsaih/Downloads/90-1-Renewable-INVERTER-20241008230030.json')
+table = pd.read_json('90-1-Renewable-INVERTER-20241008230030.json')
 
 table.set_index('TimeStamp',inplace = True)
 
