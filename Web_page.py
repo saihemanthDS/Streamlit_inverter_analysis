@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import os
 # st.write("Current directory:", os.getcwd())
-# st.image("Greenko image.jpg", width = 200)
+st.image("https://www.facebook.com/photo/?fbid=136141409173512&set=a.136141419173511", width = 200)
 
 st.header(':green[Greenko Energy Pvt.Ltd]',divider = 'orange')
 
