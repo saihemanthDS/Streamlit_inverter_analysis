@@ -1,8 +1,10 @@
+import os
+
 import streamlit as st
 import pandas as pd
 import numpy as np
-
-
+import os
+st.write("Current directory:", os.getcwd())
 st.image("Greenko image.jpg", width = 200)
 
 st.header(':green[Greenko Energy Pvt.Ltd]',divider = 'orange')
